@@ -8,13 +8,13 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
+    background: #18a13b;
+    border: 1px solid #232925;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
+    color: #fff;
     font-size: 10px;
     line-height: 16px;
     cursor: pointer;
@@ -23,11 +23,16 @@
     -webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
 .slogan{
-  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+ font-family: 'Merriweather', serif;
   font-style: italic;
   padding-top: 26px;
 }
 
+.about{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  padding-top: 26px;
+}
 .links {
     padding-top: 26px;
 }
@@ -59,13 +64,13 @@ h2 {
 }
 
 .next-quote {
-  color:#f84342;
+  color:#8c0606;
   font-family: "milkshakeregular",  sans-serif;
   font-size:20px;
 }
 
 .footer-blurb{
- font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif;
+ font-family: 'Merriweather', serif;
   font-style: italic;
   padding-top: 10px; 
 }
