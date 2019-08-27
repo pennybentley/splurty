@@ -63,6 +63,12 @@ h2 {
   font-style: italic;
 }
 
+h2 span {
+  color: #dddddd;
+  font-family: "milkshakeregular",  sans-serif;
+  font-style: italic;
+}
+
 .next-quote {
   color:#8c0606;
   font-family: "milkshakeregular",  sans-serif;
@@ -77,4 +83,18 @@ h2 {
 
 .logo:hover {
     text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: 'Merriweather', serif;
+}
+
+::selection {
+  background-color: #f84342;
 }
